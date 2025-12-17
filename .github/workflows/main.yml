@@ -1,0 +1,11 @@
+name: Github workflow action
+on:
+ push:
+   branches:
+     - main
+jobs:
+  job-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: execute echo command
+        run: echo hello world
